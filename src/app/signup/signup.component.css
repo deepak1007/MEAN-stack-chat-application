@@ -2,7 +2,10 @@
 .error {
     color:red;
 }
-
+.form-group{
+    margin:5px 5px !important;
+    padding:2px 0px !important;
+}
 input.ng-valid{
   border-left:2px solid green;    
 }
@@ -15,9 +18,11 @@ input.ng-invalid{
     height:81vh;
     padding:0;
     overflow:hidden;
+   
 }
 
-.login-box{
+.signup-box{
+    
     display:flex;
     align-items: center;
     justify-content: center;
@@ -25,14 +30,18 @@ input.ng-invalid{
 
 }
 
-.login-form-container{
-    
-    width:70%;
+.signup-form-container{
+    max-height:100%;
+    width:80%;
     text-align:center;
-    padding:40px 30px;
+    padding:10px 30px;
     background:white;
 
 
+}
+.signup-form-container form{
+   box-sizing: border-box;
+   max-height:min-content;
 }
 
 .picturebox{
@@ -42,8 +51,7 @@ input.ng-invalid{
     align-items: center;
 }
 .picturebox .img{
-    
-    
+   
     overflow-y: hidden;
  /*   background: #a8c0ff;  /* fallback for old browsers */
   /*  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
@@ -55,12 +63,11 @@ input.ng-invalid{
 .picturebox .img img{
     width:100%;
     height:100%;
-    position:relative;
     
 }
 
 @media screen and (max-width:600px){
-    .login-form-container{
+    .signup-form-container{
         width:90%;
     }
 }
