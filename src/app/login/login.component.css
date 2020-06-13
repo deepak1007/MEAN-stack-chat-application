@@ -1,0 +1,38 @@
+.error {
+    color:red;
+}
+
+input.ng-valid{
+  border-left:2px solid green;    
+}
+
+input.ng-invalid{
+    border-left:2px solid red;
+}
+
+.row{
+    display:block;
+    height:81vh;
+}
+
+.login-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
+
+.login-form-container{
+    
+    width:70%;
+    text-align:center;
+    padding:40px 30px;
+    background:white;
+
+}
+
+@media screen and (max-width:600px){
+    .login-form-container{
+        width:90%;
+    }
+}
