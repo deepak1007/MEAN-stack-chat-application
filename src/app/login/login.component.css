@@ -1,3 +1,4 @@
+
 .error {
     color:red;
 }
@@ -11,8 +12,8 @@ input.ng-invalid{
 }
 
 .row{
-    display:block;
     height:81vh;
+    padding:0;
 }
 
 .login-box{
@@ -20,6 +21,7 @@ input.ng-invalid{
     align-items: center;
     justify-content: center;
     height:100%;
+
 }
 
 .login-form-container{
@@ -29,6 +31,28 @@ input.ng-invalid{
     padding:40px 30px;
     background:white;
 
+
+}
+
+.picturebox{
+    height:100%;
+    padding:0;
+}
+.picturebox .img{
+    height:100%;
+    overflow-y: hidden;
+ /*   background: #a8c0ff;  /* fallback for old browsers */
+  /*  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+  /*  background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+}
+.picturebox .img img{
+    width:100%;
+    height:100%;
+    position:relative;
+    
 }
 
 @media screen and (max-width:600px){
